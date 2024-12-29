@@ -10,4 +10,4 @@ def square(num):
 
 # main()
 
-print(square(1.5).__round__(1))
+print(square(1.5).__round__(3))

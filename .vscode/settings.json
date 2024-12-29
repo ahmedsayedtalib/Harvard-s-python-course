@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "Pyhton Course"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
