@@ -1,9 +1,9 @@
 import re
 
-email = input("Enter email address:- ").strip()
+email = input("Enter your email:- \n").strip()
+eval = r"[a-zA-Z0-9_.%+-]+@\w+\.(com|net|edu|org|gov|co)$"
 
-if re.search(r".+@.+\.edu", email):
+if re.fullmatch(eval,email,re.IGNORECASE):
     print("Valid")
 else:
-    print("Invalid") 
-
+    print("Invalid")
